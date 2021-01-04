@@ -20,7 +20,7 @@ const DebateArticleSchema = Schema({
     },
     filePath: {
         type: String,
-        required:true,
+        
 
     },
     view_counts: {

@@ -33,7 +33,7 @@ function ArticleComment(props) {
       
     
       const getComments = (dataToSubmit) => {
-        axios.get('/api/article/getComments', dataToSubmit).then((res) => {
+        axios.get('/api/article/getComments/'+articleId).then((res) => {
             console.log(res);
             if (res.data.success) {
                 setComment(res.data.comments);
@@ -73,7 +73,7 @@ function ArticleComment(props) {
                 if (res.data.success) {
                     setComment(res.data.result)
                     alert('save data success');
-                    props.history.push('/article-comment/5fe252b9c4b196b0a904e719');
+                    props.history.push('/article');
  
                     
                 }

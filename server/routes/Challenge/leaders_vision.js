@@ -123,7 +123,7 @@ router.get('/fetch-leaders-vision', auth,(req, res) => {
         .populate("writer")
         .exec((err, leaders_vision) => {
             if (err) return res.status(400).json({ success: false, err })
-            res.status(200).json({ success: true, leaders_vision: leaders_vision })
+            res.status(200).json({ success: true, leaders_vision })
         })
      
 });

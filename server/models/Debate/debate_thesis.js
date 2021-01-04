@@ -29,7 +29,7 @@ const DebateThesisSchema = Schema({
     },
     filePath: {
         type: String,
-        required:true,
+       
 
     },
     video: {

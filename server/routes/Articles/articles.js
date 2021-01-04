@@ -127,9 +127,9 @@ router.post('/add-comment',auth, (req, res) => {
     });
 });
 
-router.get("/getComments", auth,(req, res) => {
+router.get("/getComments/:articleId", auth,(req, res) => {
 
-    ArticleComment.find({ "commentId": req.body.articleId })
+    ArticleComment.find({ "article": req.params.articleId })
         .populate('writer')
         .exec((err, comments) => {
             if (err) return res.status(400).send(err)

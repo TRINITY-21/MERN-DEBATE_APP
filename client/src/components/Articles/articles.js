@@ -74,9 +74,7 @@ export default function Article() {
       </Row>
        
       <Button block type="secondary"><a href={`/article-comment/${debate._id}`}>Add Article Comment</a> </Button> 
-      
-      <Button block type="primary"><a href={`/view-comment/${debate._id}`}>View Comment</a> </Button>
-      
+            
 </Card>
 
  
