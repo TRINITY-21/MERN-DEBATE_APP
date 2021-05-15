@@ -19,7 +19,7 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
     "axios": "^0.21.0",
-    "bcrypt": "^3.0.8",
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.5",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "concurrently": "^4.1.2",
-    "nodemon": "^1.19.4",
-    "node-pre-gyp": "0.12.0"
+    "node-pre-gyp": "0.12.0",
+    "nodemon": "^1.19.4"
   }
 }
