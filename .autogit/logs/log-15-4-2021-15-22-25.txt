@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Sat May 15 2021 15:22:25 GMT-0700 (Pacific Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* client/src/components/views/RegisterPage/RegisterPage.js
+
+
+Created files:
+* .autogit/logs/log-15-4-2021-13-29-46.txt
+* uploads/1621116324694_decoder_entity.PNG
+* uploads/1621116362501_5e2d83a52b0bcf0001428bf3.heic
+* uploads/1621116375161_whetstone.PNG
+* uploads/1621116427780_whetstone.PNG
+
+
+Deleted files:
+
+
+Renamed files:
