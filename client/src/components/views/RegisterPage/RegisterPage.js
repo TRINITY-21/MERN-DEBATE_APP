@@ -293,7 +293,7 @@ function RegisterPage(props) {
             </Form>
           </div>
         );
-      }}
+      }}  
     </Formik>
   );
 }
