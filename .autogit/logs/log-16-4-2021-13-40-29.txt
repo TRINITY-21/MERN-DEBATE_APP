@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Sun May 16 2021 13:40:29 GMT-0700 (Pacific Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* client/src/components/views/NavBar/Sections/LeftMenu.js
+* client/src/components/views/NavBar/Sections/RightMenu.js
+
+
+Created files:
+* .autogit/logs/log-16-4-2021-13-10-12.txt
+
+
+Deleted files:
+
+
+Renamed files:
