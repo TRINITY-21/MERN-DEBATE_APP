@@ -4,8 +4,8 @@
   padding: 0 10px;
   border-bottom: solid 1px #d066eb;
   overflow: auto;
-  box-shadow: 0 0 30px #ac131b;
-  background-color: rgb(206, 0, 38);
+  box-shadow: 0 0 30px #f3cf00;
+  background-color: rgb(255, 196, 0);
   color: #0e6a74;
 }
 
@@ -51,34 +51,34 @@
   padding: 6px;
   margin-top: 8px;
   display: none !important; /* use of important to overwrite ant-btn */
-  background: #d80d28;
+  background: #f3cf00;
 
 }
 
 .menu_drawer .ant-drawer-body {
   padding: 0 !important;
-  background: #d00722;
+  background: #f3cf00;
 }
 
 /* align header of Drawer with header of page */
 .menu_drawer .ant-drawer-header {
   padding: 14px 24px !important;
-  background: #d80d28;
-  color: #d80d28;
+  background:#f3cf00;
+  color: #f3cf00;
 }
 
 @media (max-width: 767px) {
   .menu__mobile-button {
     display: inline-block !important;
-    background: #d80d28;
-    color: #d80d28;
+    background: #f3cf00;
+    color: #f3cf00;
   }
 
   .menu_left,
   .menu_rigth {
     display: none;
-    background: #d80d28;
-    color: #d80d28;
+    background: #f3cf00;
+    color: #f3cf00;
   }
 
   .menu__logo a {

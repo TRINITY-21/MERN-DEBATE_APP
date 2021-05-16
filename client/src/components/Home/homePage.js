@@ -25,7 +25,7 @@ const HomePage = () => {
 
                 <br></br>  
 
-                <Title level={1}>Trending Debates</Title>
+                <Title level={1} style={{ padding: '0 20px', alignContent:"center" }}> Featured Cars</Title>
         
                 <Content style={{ padding: '0 20px' }}>
                    
@@ -38,7 +38,7 @@ const HomePage = () => {
         {/* <Footer style={{ textAlign: 'center' }}> ©2018 Created by TRINITY</Footer> */}
            
         <br></br>  
-            <Layout className="layout">
+            {/* <Layout className="layout">
     
 
                 <br></br>  
@@ -48,11 +48,11 @@ const HomePage = () => {
 
                     <div className="site-layout-content"><TrendingChallenge /></div>
                    
-                    
-                    </Content>
+                     */}
+                    {/* </Content> */}
                    
         {/* <Footer style={{ textAlign: 'center' }}> ©2018 Created by TRINITY</Footer> */}
-                </Layout>
+                {/* </Layout> */}
                 </Layout>
             <Row/>
             </div>

@@ -17,22 +17,29 @@ const Caro = () => {
     
     return (
         <>
-            <Carousel autoplay>
-                <div>
+            <Carousel autoplay style={contentStyle}> 
+                {/* <div>
                 <Image  height='560px' width="500px"  src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
                     
-                </div>
+                </div> */}
                 <div>
-                    <Image height='560px' width="500px" src="./logo192.png" />
+                    <Image height='560px' width="1500px" src="./download.jpg" />
+
+                </div>
+                
+                <div>
+                    <Image height='560px' width="1500px" src="./download3.jpg" />
 
                 </div>
                 <div>
-                <Image height='560px' width="500px" src="./logo512.png" />
+                <Image height='560px' width="1500px" src="./download1.jpg" />
 
                 </div>
                 <div>
-                    <h3 style={contentStyle}>4</h3>
+                <Image height='560px' width="1500px" src="./download2.jpg" />
+
                 </div>
+               
             </Carousel>
 
            
