@@ -9,20 +9,20 @@ const style = {
 
 function LeftMenu(props) {
   return (
-    <Menu mode={props.mode} style={{background:"rgb(206, 0, 38)",}} >
+    <Menu mode={props.mode} style={{background:"rgb(255, 196, 0)",}} >
     <Menu.Item key="mail">
-      <a href="/" style={{ color:"white"}}>Home</a>
+      <strong><a href="/" style={{ color:"white"}}>Home</a></strong>
       </Menu.Item>
       
     <Menu.Item key="debate">
-      <a href="/debate"  style={{ color:"white"}}>Debates</a>
+     <strong> <a href="/debate"  style={{ color:"white"}}>Debates</a></strong>
       </Menu.Item>  
     <Menu.Item key="article">
-      <a href="/article"  style={{ color:"white"}}>Articles</a>
+      <strong><a href="/article"  style={{ color:"white"}}>Articles</a></strong>
       </Menu.Item>
       
     <Menu.Item key="contest">
-      <a href="/contest"  style={{ color:"white"}}>Contests</a>
+     <strong> <a href="/contest"  style={{ color:"white"}}>Contests</a></strong>
       </Menu.Item>
 
       {/* <Menu.Item key="booklist">

@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Sun May 16 2021 13:10:12 GMT-0700 (Pacific Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* client/src/components/Home/carousel.js
+* client/src/components/Home/homePage.js
+* client/src/components/views/NavBar/Sections/Navbar.css
+
+
+Created files:
+* .autogit/logs/log-16-4-2021-12-35-40.txt
+* client/public/download.jpg
+* client/public/download1.jpg
+* client/public/download2.jpg
+* client/public/download3.jpg
+
+
+Deleted files:
+
+
+Renamed files:

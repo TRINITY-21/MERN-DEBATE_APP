@@ -54,7 +54,7 @@ function RightMenu(props) {
 
   if (user.userData && !user.userData.isAuth) {
     return (
-      <Menu mode={props.mode} style={{background:"rgb(206, 0, 38)",}}>
+      <Menu mode={props.mode} style={{background:"rgb(255, 196, 0)",}}>
         <Menu.Item key="mail">
           <a href="/login" style={{ color:"white"}}>Signin</a>
         </Menu.Item>
@@ -65,14 +65,14 @@ function RightMenu(props) {
     )
   } else {
     return (
-      <Menu mode={props.mode}  style={{background:"rgb(206, 0, 38)",}}>
+      <Menu mode={props.mode}  style={{background:"rgb(255, 196, 0)",}}>
              
-        <Menu.Item key="name" style={{background:"rgb(206, 0, 38)",color:"white"}} >
+        <Menu.Item key="name" style={{background:"rgb(255, 196, 0)",color:"white"}} >
           {/* <p>Welcome, {user.userData
              && user.userData.name
           }
           </p> */}
-          <Meta
+          <Meta style={{color:"rgb(255, 196, 0)",}}
 
              
             title={
@@ -81,7 +81,7 @@ function RightMenu(props) {
 
             }
               avatar={
-                <Avatar style={{ color:"red"}} src={`http://localhost:9000/${ user.userData && user.userData.image}`} />
+                <Avatar  src={`http://localhost:9000/${ user.userData && user.userData.image}`} />
       
             }
            
