@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Sat May 15 2021 16:23:04 GMT-0700 (Pacific Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-15-4-2021-15-52-46.txt
+* uploads/1621119275822_Q1_simu.PNG
+* uploads/1621119488449_code(2).PNG
+* uploads/1621119874920_memory(2).PNG
+
+
+Deleted files:
+
+
+Renamed files:
